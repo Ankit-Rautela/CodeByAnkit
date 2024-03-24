@@ -2,6 +2,7 @@ import React from "react";
 import { Search } from "lucide-react";
 import profilePic from "../assets/profilePic.png";
 import Maintenance from "./Maintenance";
+import "../App.css";
 import "../index.css";
 
 const Home = () => {
@@ -14,7 +15,7 @@ const Home = () => {
 
         <div className="Button-section">
           <form className="search-section">
-            <input className="input"
+            <input className="input "
               type="search"
               id="query"
               placeholder="Type here to search.."
