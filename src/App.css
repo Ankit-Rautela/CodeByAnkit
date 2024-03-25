@@ -61,17 +61,14 @@
   margin-top: 250px;
 }
 
-.search-section {
-  /* background-color: green;    */
-  /* border: 1px solid blue; */
-  /* border-radius: 10px; */
+/* .search-section {
   display: flex;
   flex-direction: row;
   padding: 14px;
   width: 12px;
   height: 18px;
   margin-top: -15px;
-}
+} */
 
 .input {
   font: 16px system-ui;
@@ -89,10 +86,10 @@
   color: grey;
   transition: color 0.3s ease;
   fill: currentColor;
-  width: 103px;
+  width: 42px;
   height: 34px;
   padding: 9px;
-  translate: 112px 3px;
+  translate: 126px 4px;
   /* border-radius: 35%; */
 }
 
@@ -133,7 +130,7 @@
 
 .login-signIn{
   position: absolute;
-  top: 0rem;
+  top: -2px;
   right: 10rem;
 }
 
