@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow: hidden;
+  overflow-y:scroll;
   background-color: white;
 }
 
@@ -14,10 +14,3 @@ code {
     monospace;
 }
 
-.homebutton{
-margin-top: 17rem;
-display: flex;
-justify-content: center;
-align-items: center;
-size: 50px;
-}

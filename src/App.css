@@ -1,5 +1,3 @@
-
-
 .PowerButton {
   height: 10vh;
   width: 40vh;
@@ -35,7 +33,7 @@
 
 .header {
   height: 60px;
-  /* background-color: green;   */
+  background-color: white;
   /* border: 1px solid blue; */
   /* border-bottom: 1px solid white; */
   border-bottom-style: ridge;
@@ -43,13 +41,13 @@
   flex-direction: row;
   align-items: center;
   /* position: fixed; */
-  top:0;
+  top: 0;
   width: 100%;
   position: sticky;
 }
 
-.logo-section{
-  width: 800px;
+.logo-section {
+  width: 400px;
 }
 
 .form {
@@ -61,15 +59,6 @@
   margin-top: 250px;
 }
 
-/* .search-section {
-  display: flex;
-  flex-direction: row;
-  padding: 14px;
-  width: 12px;
-  height: 18px;
-  margin-top: -15px;
-} */
-
 .input {
   font: 16px system-ui;
   color: black;
@@ -77,19 +66,19 @@
   position: absolute;
   top: 1.1rem;
   right: 22rem;
-  height: 2rem;
+  height: 36px;
   padding: 6px 10px;
   /* border-radius: 15%; */
 }
 
-.search-button{
+.search-button {
   color: grey;
   transition: color 0.3s ease;
   fill: currentColor;
   width: 42px;
-  height: 34px;
+  height: 36px;
   padding: 9px;
-  translate: 126px 4px;
+  translate: 500px 6px;
   /* border-radius: 35%; */
 }
 
@@ -102,7 +91,7 @@
   margin-top: -2px;
 }
 
-.search-icon:hover{
+.search-icon:hover {
   color: black;
   cursor: pointer;
 }
@@ -110,10 +99,10 @@
 .Button-section {
   display: flex;
   flex-direction: row;
-  margin-left: 80px;;
+  margin-left: 80px;
 }
 
-.signUp-button{
+.signUp-button {
   height: 50%;
   margin: 10px;
   border-radius: 10%;
@@ -121,25 +110,57 @@
   margin-right: -10rem;
 }
 
-.logIn-button{
+.logIn-button {
   height: 50%;
   margin: 20px;
   border-radius: 10%;
   padding: 8px;
 }
 
-.login-signIn{
+.login-signIn {
   position: absolute;
   top: -2px;
   right: 10rem;
 }
 
-.maintenanceImage{
+.maintenanceImage {
   border-color: 10px solid black;
   height: 500px;
   width: 500px;
   margin-left: 400px;
 }
 
+/* Footer CSS */
 
+.footer {
+  position:relative;
+  /* background-color: #F5F5F7; */
+  background-color: darkgray;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: row;
+}
 
+.footer-profile-image{
+  height: 106px;
+  width: auto;
+  /* background-color: pink;   */
+  /* border: 1px solid red; */
+  margin-top: 2px;
+  margin-left: 35px;
+}
+
+.social-link{
+  margin: auto;
+}
+
+.social-link-div{
+  display: flex;
+}
+
+.get-in-touch{
+  margin: auto;
+}

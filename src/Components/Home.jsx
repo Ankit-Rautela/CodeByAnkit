@@ -1,5 +1,5 @@
 import React from "react";
-import { Search } from "lucide-react";
+import { Search, Linkedin, Github, Twitter } from "lucide-react";
 import profilePic from "../assets/profilePic.png";
 import Maintenance from "./Maintenance";
 import "../App.css";
@@ -15,7 +15,8 @@ const Home = () => {
 
         <div className="Button-section">
           <form className="search-section">
-            <input className="input "
+            <input
+              className="input "
               type="search"
               id="query"
               placeholder="Type here to search.."
@@ -31,10 +32,21 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <Maintenance />
+
+      <div className="main-content">
+        <Maintenance />
+      </div>
 
       <div className="footer">
+        <img className="footer-profile-image" src={profilePic} alt="logo" />
+        <div className="social-link">Social Link </div>
+        <div className="social-link-div">
+          <Linkedin />
+          <Github />
+          <Twitter />
+        </div>
 
+        <div className="get-in-touch">Get in Touch</div>
       </div>
     </>
   );
