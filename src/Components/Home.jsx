@@ -39,14 +39,17 @@ const Home = () => {
 
       <div className="footer">
         <img className="footer-profile-image" src={profilePic} alt="logo" />
-        <div className="social-link">Social Link </div>
-        <div className="social-link-div">
-          <Linkedin />
-          <Github />
-          <Twitter />
-        </div>
+        <div className="social-link">
+          <div className="social-link-text">
+            <p>Social Links</p>
+          </div>
 
-        <div className="get-in-touch">Get in Touch</div>
+          <div className="social-link-div">
+            <Linkedin />
+            <Github />
+            <Twitter />
+          </div>
+        </div>
       </div>
     </>
   );

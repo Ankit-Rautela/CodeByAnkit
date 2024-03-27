@@ -133,7 +133,7 @@
 /* Footer CSS */
 
 .footer {
-  position:relative;
+  position: relative;
   /* background-color: #F5F5F7; */
   background-color: darkgray;
   bottom: 0px;
@@ -144,23 +144,13 @@
   flex-direction: row;
 }
 
-.footer-profile-image{
+.footer-profile-image {
   height: 106px;
   width: auto;
   /* background-color: pink;   */
   /* border: 1px solid red; */
-  margin-top: 2px;
-  margin-left: 35px;
+  margin-top: 22px;
+  margin-left: 110px;
+  margin-bottom: 20px;
 }
 
-.social-link{
-  margin: auto;
-}
-
-.social-link-div{
-  display: flex;
-}
-
-.get-in-touch{
-  margin: auto;
-}
