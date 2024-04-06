@@ -33,21 +33,37 @@ const Home = () => {
         </div>
       </div>
 
+      <Maintenance />
       <div className="main-content">
-        <Maintenance />
+        <div className="main-body">
+          <div className="left-main-body">
+            <p>Showcase window</p>
+          </div>
+          <div className="right-main-body">
+            <div className="intro-text">
+              <p>Hi, This is Ankit Rautela.</p>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div className="footer">
         <img className="footer-profile-image" src={profilePic} alt="logo" />
         <div className="social-link">
           <div className="social-link-text">
-            <p>Social Links</p>
+            <p>Follow Us</p>
           </div>
 
           <div className="social-link-div">
-            <Linkedin />
-            <Github />
-            <Twitter />
+            <a href="https://www.linkedin.com/in/ankit-rautela/">
+              <Linkedin />
+            </a>
+            <a href="https://github.com/Ankit-Rautela">
+              <Github />
+            </a>
+            <a href="https://twitter.com/CodeByAnkit">
+              <Twitter />
+            </a>
           </div>
         </div>
       </div>

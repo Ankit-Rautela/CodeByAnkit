@@ -142,6 +142,7 @@
   margin-bottom: 0px;
   display: flex;
   flex-direction: row;
+  border: 1px solid black;
 }
 
 .footer-profile-image {
@@ -154,3 +155,53 @@
   margin-bottom: 20px;
 }
 
+.social-link{
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.social-link-text{
+  text-align: center;
+  color: black;
+}
+
+.social-link-text :hover{
+  text-decoration: underline;
+}
+
+.social-link-div a {
+  color: black;
+  padding: 20px;
+}
+
+/* Main Body CSS */
+
+.left-main-body {
+  background-color: bisque;
+  height: 600px;
+  width: 400px;
+  border: 1px solid black;
+}
+
+.right-main-body {
+  background-color: white;
+  height: 600px;
+  width: 950px;
+  border: 1px solid black;
+}
+
+.main-body{
+  display: flex;
+  flex-direction: row;
+  flex-direction: row;
+}
+
+.intro-text {
+  margin-top: 10px;
+  text-decoration: dashed;
+  margin-top: 176px;
+  text-decoration: overline;
+  font-weight: bold;
+  text-align: center;
+  font-size: 200%;
+}
